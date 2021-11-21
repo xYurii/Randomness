@@ -1,3 +1,7 @@
+/*
+Getting all functions from the plugin folder.
+*/
+
 const rand = require('./plugins/rand.js')
 const censorName = require('./plugins/censorName.js')
 const convertAbbrev = require('./plugins/convertAbbrev.js')
