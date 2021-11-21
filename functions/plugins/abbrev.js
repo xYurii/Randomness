@@ -1,3 +1,7 @@
+/*
+num is the number for abbrev, example: convert 10000 to 10k...
+*/
+
 module.exports = (num) => {
     if (!num || isNaN(num)) return "0";
     if (typeof num === "string") num = parseInt(num);
