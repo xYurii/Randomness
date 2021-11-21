@@ -1,3 +1,7 @@
+/*
+convert the abbreviated number to normal number, example: convert 10k to 10000
+*/
+
 module.exports = (num) => {
     if (!num) return "0";
   
