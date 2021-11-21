@@ -1,3 +1,8 @@
+/*
+Do you want to censor any message? So just use this function! example: censorName('https://')
+the str parameter is the message that this function will check, if includes "https://" in str the message will replaced with \_(ツ)_/
+*/
+
 module.exports = (str) => {
     if(str.includes('+55')) {
         return '¯\\_(ツ)_/¯'
