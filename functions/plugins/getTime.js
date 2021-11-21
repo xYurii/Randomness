@@ -1,3 +1,7 @@
+/*
+a simple function to format days, hours, minutes and seconds, the "tempo" parameter is the time in miliseconds
+*/
+
 module.exports = (tempo) => {
     const ms = require('parse-ms')
     let time = ms(tempo)
